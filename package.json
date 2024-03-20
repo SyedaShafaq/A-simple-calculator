@@ -1,0 +1,20 @@
+{
+  "name": "simp-simple-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": "Index01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "syeda shafaq",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.28"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  }
+}
