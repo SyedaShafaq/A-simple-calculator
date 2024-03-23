@@ -22,7 +22,7 @@ const answer = await inquirer.prompt([
       "Subtraction",
       "Multiplication",
       "Division",
-      "Module",
+      "Modulus",
     ],
   },
 ]);
@@ -39,7 +39,7 @@ if (answer.operator3 === "Addition") {
 } else if (answer.operator3 === "Division") {
   console.log("Result");
   console.log(answer.operator1 / answer.operator2);
-} else if (answer.operator3 === "Module") {
+} else if (answer.operator3 === "Modulus") {
   console.log("Result");
   console.log(answer.operator1 % answer.operator2);
 } else {
